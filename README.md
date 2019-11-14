@@ -31,6 +31,7 @@ say "Text to speak"
 
 ## 目前找到的资料
 
+- 小爱开放平台：https://123.125.102.180/documents/Home?type=/api/doc/render_markdown/VoiceserviceAccess/Reference/ProtocolDocument/APIReference/SpeechSynthesizer
 - 分享一下关于小爱音响的几个接口文件：https://bbs.hassbian.com/thread-4996-1-1.html
 - 【1014更新】小爱音箱系统破解实现更多功能（重大进展）：https://bbs.hassbian.com/thread-4961-1-1.html
 - 小爱同学TTS服务（2019年5月29日更新可用版本）：https://bbs.hassbian.com/forum.php?mod=viewthread&tid=3669&extra=&authorid=1417&page=1
