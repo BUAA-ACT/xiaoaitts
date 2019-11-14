@@ -23,11 +23,11 @@ say "Text to speak"
 
 ## 问题
 
-- 双十一期间快递速度慢
-
 - 查阅[开发文档](https://123.125.102.180/documents/Home?type=/api/doc/render_markdown/VoiceserviceAccess/Reference/ProtocolDocument/APIReference/SpeechSynthesizer)，只有人给命令->唤醒音箱->音箱解析给服务器->服务器应答->音箱响应的开发场景。
 
   而让音箱主动发声（不唤醒）是特殊需求，实现起来很麻烦。
+  
+- 双十一期间快递速度慢
 
 ## 目前找到的资料
 
