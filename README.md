@@ -2,22 +2,32 @@
 
 小爱同学智能音箱TTS服务API
 
-## 老师需求
+## 需求
 
-驱动智能音箱的工具
+@王旭 驱动智能音箱的工具。
 
 ## 询问具体场景
 
-煮好咖啡后让智能设备发出提示音
+@王畅 演示的时候有个喝咖啡的应用，煮好咖啡后会有个提示。北大那边的需求是给智能设备发条消息，智能设备发出提示音。
 
 ## 不被采纳的建议
 
-用跑后端的机器发声
+监控以及控制智能设备需要有台机器跑后端程序，用这台机器发声：
+
+```bash
+# Linux
+echo "Text to speak"|espeak
+# macOS
+say "Text to speak"
+```
 
 ## 问题
 
 - 双十一期间快递速度慢
-- 查阅[开发文档](https://123.125.102.180/documents/Home?type=/api/doc/render_markdown/VoiceserviceAccess/Reference/ProtocolDocument/APIReference/SpeechSynthesizer)，只有人给命令->唤醒音箱->音箱解析给服务器->服务器应答->音箱响应的开发场景。而让音箱主动发声是特殊需求，实现起来很麻烦。
+
+- 查阅[开发文档](https://123.125.102.180/documents/Home?type=/api/doc/render_markdown/VoiceserviceAccess/Reference/ProtocolDocument/APIReference/SpeechSynthesizer)，只有人给命令->唤醒音箱->音箱解析给服务器->服务器应答->音箱响应的开发场景。
+
+  而让音箱主动发声（不唤醒）是特殊需求，实现起来很麻烦。
 
 ## 目前找到的资料
 
