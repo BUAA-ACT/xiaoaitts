@@ -2,6 +2,12 @@
 
 小爱同学智能音箱TTS服务API
 
+## 使用
+
+1. 注册小米账户 https://account.xiaomi.com
+2. 将小爱音箱与账户关联（下载米家APP）
+3. 具体使用查看`demo.py`文件
+
 ## 需求
 
 @王旭 驱动智能音箱的工具。
@@ -29,7 +35,7 @@ say "Text to speak"
   
 - 周三提出来，音箱周四晚上到
 
-## 目前找到的资料
+## 相关资料
 
 - 小爱开放平台：https://123.125.102.180/documents/Home?type=/api/doc/render_markdown/VoiceserviceAccess/Reference/ProtocolDocument/APIReference/SpeechSynthesizer
 - 分享一下关于小爱音响的几个接口文件：https://bbs.hassbian.com/thread-4996-1-1.html
