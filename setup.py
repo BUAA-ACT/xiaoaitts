@@ -7,4 +7,7 @@ setup(
     description = 'xiaoai TTS API',
     author='barriery',
     url='https://github.com/barrierye/xiaoaitts',
+    install_requires=[
+        'requests==2.22.0',
+    ],
 )

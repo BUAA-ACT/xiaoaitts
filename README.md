@@ -5,8 +5,18 @@
 ## 使用
 
 1. 注册小米账户 https://account.xiaomi.com
+
 2. 将小爱音箱与账户关联（下载米家APP）
-3. 具体使用查看`demo.py`文件
+
+3. 从源码安装
+
+   ```bash
+   pip install wheel
+   python setup.py bdist_wheel
+   pip install dist/xiaoaitts-0.0.0-py3-none-any.whl
+   ```
+
+4. 具体使用查看`demo.py`文件
 
 ## 初始需求
 
