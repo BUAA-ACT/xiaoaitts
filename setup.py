@@ -9,6 +9,6 @@ setup(
     author='barriery',
     url='https://github.com/barrierye/xiaoaitts',
     install_requires=[
-        'requests==2.22.0',
+        'requests==2.31.0',
     ],
 )
